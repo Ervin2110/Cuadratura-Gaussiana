@@ -13,28 +13,15 @@ cuadrature.cuadrature()
 
 ```
 
-Esta función tiene 3 argumentos que esperan valores enteros, los cuales representaran 3 ordenes, ya sean diferentes o iguales, de los polinomios de Legendre que se usan en la cuadratura Gaussiana. Estos argumentos no son obligatorios ponerlos, puesto que ya traen 3 valores por defecto (N1 = 2, N2 = 3, N3 = 4).
+Esta función tiene 3 argumentos que tienen por defecto valores enteros, los cuales representan 3 ordenes diferentes de los polinomios de Legendre que se usan en la cuadratura Gaussiana, permitiendo que lo único que tenga que hacer sea llamar a la función y visualizar los resultados con $N = 2$, $N = 3$ y $N = 4$, el cual es el valor real.
 
-Si no se coloca ningún argumento, la función imprimirá la aproximación de la función con este método con los ordenes de los polinomios por defecto, además de el valor y el orden del polinomio que genera la aproximación exacta:
+Con esto, la función imprimirá la aproximación de la función con este método con los ordenes de los polinomios por defecto, junto con el valor y el orden del polinomio que genera la aproximación exacta:
 
 ```python3
 
 Resultado de aproximación con polinomio de grado 2: 306,8199344959197
 Resultado de aproximación con polinomio de grado 3: 317,264151733829
 Resultado de aproximación con polinomio de grado 4: 317,3453903341579
-Resultado correcto, polinomio de grado 4: 317,3453903341579
-
-```
-
-En cambio, si se introducen argumentos, los valores de las aproximaciones cambiarán, según los ordenes de los polinomios que hayamos introducido:
-
-```python3
-
-cuadrature.cuadrature(1,5,6)
-
-Resultado de aproximación con polinomio de grado 1: 306,8199344959197
-Resultado de aproximación con polinomio de grado 5: 317,264151733829
-Resultado de aproximación con polinomio de grado 6: 317,3453903341579
 Resultado correcto, polinomio de grado 4: 317,3453903341579
 
 ```

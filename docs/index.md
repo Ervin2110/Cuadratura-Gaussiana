@@ -1,6 +1,6 @@
 ## Integración
 
-En la computación científica, muchas veces se requieren realizar cálculos con ecuaciones complejas que pueden ocupar mucho recurso de la unidad de procesamiento y tiempo para que se realice, por ello, se han desarrollado deiferentes métodos para agilizar estos procesamientos de datos de maneras menos complejas pero igual de exactas.
+En la computación científica, muchas veces se requieren realizar cálculos con ecuaciones complejas que pueden ocupar mucho recurso de la unidad de procesamiento y tiempo para que se realice, por ello, se han desarrollado diferentes métodos para agilizar estos procesamientos de datos de maneras menos complejas pero igual de exactas.
 
 Entre los cálculos que se suelen realizar en computación científica, estan los de calcular las integrales de funciones, sin embargo, puede ser un poco engorroso el cálculo de integrales donde la función ya no se comporta como un simple polinomio, por ello, se han diseñado estrategias para poder hacer evaluaciones numéricas de estas integrales y disminuir la complejidad del problema.
 
