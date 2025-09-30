@@ -274,13 +274,15 @@
 
   <h1>Explanation</h1>
 
-<p>La idea principal es poder observar la integral como una suma de un polinomio de la siguiente forma: <span class="arithmatex">\(\int_{a}^{b}dxf(x) \approx \sum_{k=1}^{N} w_{k}f(x_{k}\)</span> donde:</p>
-<p><span class="arithmatex">\(f(x)\)</span> es la función a integrar.
-<span class="arithmatex">\(w_{k}\)</span> son los llamados "pesos".
-<span class="arithmatex">\(x_{k}\)</span> son los puntos de muestro de la función.</p>
-<p>Los puntos de muestreo en la cuadratura Gaussiana se escogen de tal manera que no son equidistantes, lo que permite más grados de libertad (mayor número de pará,etros libres que se pueden ajustar) para la discretización en N subregiones, permitiendo que la aproximación se exacta para un polinomio de orden <span class="arithmatex">\(2N - 1\)</span>.</p>
+<p>La idea principal es poder observar la integral como una suma de un polinomio de la siguiente forma: <span class="arithmatex">\(\int_{a}^{b}dxf(x) \approx \sum_{k=1}^{N} w_{k}f(x)_{k}\)</span> donde:</p>
+<ul>
+<li><span class="arithmatex">\(f(x)\)</span> es la función a integrar.</li>
+<li><span class="arithmatex">\(w_{k}\)</span> son los llamados "pesos".</li>
+<li><span class="arithmatex">\(x_{k}\)</span> son los puntos de muestro de la función.</li>
+</ul>
+<p>Los puntos de muestreo en la cuadratura Gaussiana se escogen de tal manera que no son equidistantes, lo que permite más grados de libertad (mayor número de parámetros libres que se pueden ajustar) para la discretización en N subregiones, permitiendo que la aproximación sea exacta para un polinomio de orden <span class="arithmatex">\(2N - 1\)</span>.</p>
 <p>A pesar de que la aproximación exacta se alcanza con unos pocos puntos de muestreo, la cuadratura Gaussiana se vuelve problemática en funciones que tienen regiones no muy bien comportadas, haciendo que se requieran de más puntos de muestreo, además, evaluar el error con este método es muy complicado si se quiere saber de manera precisa.</p>
-<p>En este módulo en específico, se usa la cuadratura Gaussiana con los polinomios de Legendre, los cuales son un sistema de polinomios ortogonales que pueden ser definidos de manera recursiva y dentro del intervalo [<span class="arithmatex">\(-1, 1\)</span>]</p>
+<p>En este módulo en específico, se usa la cuadratura Gaussiana con los polinomios de Legendre, los cuales son un sistema de polinomios ortogonales que pueden ser definidos de manera recursiva y dentro del intervalo <span class="arithmatex">\([-1, 1]\)</span>.</p>
 
 
 
