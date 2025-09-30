@@ -1,8 +1,8 @@
 La idea principal es poder observar la integral como una suma de un polinomio de la siguiente forma: $\int_{a}^{b}dxf(x) \approx \sum_{k=1}^{N} w_{k}f(x)_{k}$ donde:
 
-$f(x)$ es la función a integrar.//
-$w_{k}$ son los llamados "pesos".//
-$x_{k}$ son los puntos de muestro de la función.
+- $f(x)$ es la función a integrar.
+- $w_{k}$ son los llamados "pesos".
+- $x_{k}$ son los puntos de muestro de la función.
 
 Los puntos de muestreo en la cuadratura Gaussiana se escogen de tal manera que no son equidistantes, lo que permite más grados de libertad (mayor número de pará,etros libres que se pueden ajustar) para la discretización en N subregiones, permitiendo que la aproximación se exacta para un polinomio de orden $2N - 1$.
 
